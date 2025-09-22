@@ -24,8 +24,8 @@ export class MiComponente05Padre {
 
   constructor() {
     this.usuario = {
-      nombre: 'Maria Gomez',
-      edad: 20,
+      nombre: 'IVAR RODRIGUEZ GUACHALLA',
+      edad: 30,
       esActivo: true,
     };
   }
