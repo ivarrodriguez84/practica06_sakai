@@ -1,0 +1,9 @@
+<div style="background: #7ca0cb">
+  <h2>Mi Componente 11</h2>
+  <p>{{ titulo() }}</p>
+  <h2>Signals</h2>
+  <p>Contador: {{ contador() }}</p>
+  <p-button label="Incrementar con set()" (onClick)="incrementarConSet()" [raised]="true" severity="success"></p-button> 
+  <p-button label="Incrementar con update()" (onClick)="incrementarConUpdate()"  [raised]="true" severity="success"></p-button>
+  <p>Multiplicar contador por tres: {{ multiplicarPorTres() }}</p>
+</div>
